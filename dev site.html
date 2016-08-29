@@ -9,14 +9,10 @@
 	<ul class="col-xs-2 nav nav-pills nav-stacked">
   <li role="presentation" class="active"><a href="#">Inicío</a></li>
 <li role="presentation" class="dropdown">
-    <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
-      Quem somos <span class="caret"></span>
-    </a>
-    <ul class="dropdown-menu nav nav-pills">
-	<li role="presentation"><a href="#">Junte-se a nós</a></li></ul>
-	<li role="presentation"><a href="#">Contate-nos</a></li>
-	<li role="presentation"><a href="#">Doações</a></li>
-	<li role="presentation"><a href="#">Parcerias e patrocínios</a></li>
+    <li role="presentation"><a href="#Quem somos">Quem somos</a></li>
+	<li role="presentation"><a href="#Contato">Contate-nos</a></li>
+	<li role="presentation"><a href="#Doações">Doações</a></li>
+	<li role="presentation"><a href="#Parcerias e patrocínios">Parcerias e patrocínios</a></li>
 	<li role="presentation" class="dropdown">
     <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
       Login <span class="caret"></span>
@@ -26,7 +22,7 @@
 	<li role="presentation"><a href="#">Cliente</a></li>
 	<li role="presentation"><a href="#">Visitante</a></li>
 	</ul>
-	<li role="presentation"><a href="#">Verificar Projetos</a></li>
+	<li role="presentation"><a href="#Projetos">Verificar Projetos</a></li>
 	<li role="presentation" class="dropdown">
     <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
       Eventos <span class="caret"></span>
@@ -36,17 +32,113 @@
 	<li role="presentation"><a href="#">Atualizar Projeto</a></li>
 	<li role="presentation"><a href="#">Cadastrar cliente</a></li> 
  </ul>
- 
- <style>
- h1{
-	font-size: 10pt;
- }
- </style>
- 
+  
 <div class="page-header">
 	<img src="imagem/logorecode.png">
-	<p class="text-center"><u>A Recode é uma empresa júnior composta por alunos do curso de engenharia da computação da UFRB (Universidade Federal do Recôncavo da Bahia) que oferece serviços para o desenvolvimento web e android.</u></p>
+	<p class="text-center"><u>A Recode Jr. é uma Empresa Júnior do curso de Engenharia da Computação da UFRB (Universidade Federal do Recôncavo da Bahia) que oferece serviços para o desenvolvimento web e mobile.</u></p>
 </div>
+
+<div class="jumbotron container">
+	<a name="Quem somos" id="Quem somos"></a>
+  <h1>Quem somos!</h1>
+  <p>Membros:</p>
+  <div class="media">
+  <div class="media-left media-middle">
+    <a href="#">
+      <img class="media-object" src="imagem/black spider man.png" alt="Imagem do membro">
+    </a>
+  </div>
+  <div class="media-body">
+    <h4 class="media-heading">Rodrigo Pereira Vieira</h4>
+    Estudante BCET,
+	Desenvolvimento Web e Android
+  </div>
+</div>
+<div class="media">
+  <div class="media-left media-middle">
+    <a href="#">
+      <img class="media-object" src="imagem/iron man.png" alt="Imagem do membro">
+    </a>
+  </div>
+  <div class="media-body">
+    <h4 class="media-heading">Fulano de tal</h4>
+    Estudante BCET,
+	Desenvolvimento Android
+  </div>
+<p></p>
+</div>
+  <p><a class="btn btn-primary btn-lg" href="#formulario" role="button">Junte-se a nós</a></p>
+</div>
+<div class="page-header">
+	<a name="formulario" id="formulario"></a>
+	<p class="text-center"><strong>FORMULÁRIO</strong></p>
+
+
+
+<div class="input-group col-lg-6 liquid">
+  <span class="input-group-addon" id="sizing-addon2">Nome:</span>
+  <input type="text" class="form-control" placeholder="Sua resposta" aria-describedby="sizing-addon2">
+</div>
+<p></p>
+<div class="input-group col-lg-6 liquid">
+  <span class="input-group-addon" id="sizing-addon2">E-mail:</span>
+  <input type="text" class="form-control" placeholder="Sua resposta" aria-describedby="sizing-addon2">
+</div>
+<p></p>
+<div class="input-group col-lg-6 liquid">
+  <span class="input-group-addon" id="sizing-addon2">Matrícula:</span>
+  <input type="text" class="form-control" placeholder="Sua resposta" aria-describedby="sizing-addon2">
+</div>
+<p></p>
+<div class="text liquid"><p>Você já cursou as disciplinas de Processamento de Dados?</p></div>
+<form>
+  <input type="radio" name="option" value="Sim" checked> Sim<br>
+  <input type="radio" name="option" value="Estou cursando"> Estou cursando<br>
+  <input type="radio" name="option" value="Não"> Não<br>
+</form>
+<p></p>
+<div class="input-group col-lg-6 liquid">
+  <span class="input-group-addon" id="sizing-addon2">Qual terminalidade você quer seguir:</span>
+  <input type="text" class="form-control" placeholder="Sua resposta" aria-describedby="sizing-addon2">
+</div>
+<p></p>
+<div class="text liquid"><p>Você tem interesse nas áreas de programação e desenvolvimento de software? </p></div>
+<form>
+  <input type="radio" name="option" value="Sim" checked> Sim<br>
+  <input type="radio" name="option" value="Mais ou menos"> Mais ou menos<br>
+  <input type="radio" name="option" value="Não"> Não<br>
+</form>
+<p></p>
+<div class="text liquid"><p>Se sim para a pergunta anterior, qual das áreas abaixo lhe chama mais atenção?</p></div>
+<form>
+  <input type="radio" name="option" value="Desenvolvimento Web" checked> Desenvolvimento Web<br>
+  <input type="radio" name="option" value="Desenvolvimento Móvel"> Desenvolvimento Móvel<br>
+  <input type="radio" name="option" value="Outro"> Outro<br>
+  <div class="col-lg-6">
+    <div class="input-group">
+      <input type="text" class="form-control" aria-label="...">
+    </div>
+</form>
+<p></p>
+<p></p>
+<div class="text liquid"><p>Você tem afinidade com alguma das tecnologias abaixo? (Caso sim, marque as que conhece.)</p></div>
+<form>
+  <input type="radio" name="option" value="Java" checked> Java<br>
+  <input type="radio" name="option" value="PHP"> PHP<br>
+  <input type="radio" name="option" value="HTML/CSS"> HTML/CSS<br>
+  <input type="radio" name="option" value="JavaScript"> JavaScript<br>
+  <input type="radio" name="option" value="Outro"> Outro<br>
+  <div class="col-lg-6">
+    <div class="input-group">
+      <input type="text" class="form-control" aria-label="...">
+    </div>
+</form>
+<p></p>
+<ul class="nav nav-pills">
+  <li role="presentation" class="active"><a href="#">Enviar</a></li>
+</ul>
+</div>
+
 
 	<title>Recode Jr.</title>
 
@@ -67,7 +159,6 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
-	
 	
   </body>
 </html>
